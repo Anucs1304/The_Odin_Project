@@ -24,6 +24,28 @@
         const actual = max - 13;
         const percentage = actual / max;
         console.log(percentage);
+
+        function add7(num){
+            return num + 7;
+        }
+        console.log(add7(10));
+
+        function multiply(a,b){
+            return a * b;
+        }
+        console.log(multiply(3, 2));
+
+        function capitalise(str){
+            return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+        }
+        console.log(capitalise("abcd"));
+        console.log(capitalise("ABCD"));
+        console.log(capitalise("aBcD"));
+
+        function lastLetter(str){
+            return str.charAt(str.length - 1);
+        }
+        console.log(lastLetter("abcd"));
     </script>
 </body>
 </html>
