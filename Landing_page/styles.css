@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    background: #1f2937;
+    padding: 20px 0;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a{
+    color: #e5e7eb;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    background: #1f2937;
+    padding: 80px 0;
+    color: white;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 15px 0;
+}
+
+.btn{
+    background: #3882f6;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image{
+    background: #6d747d;
+    width: 450px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.info{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.info h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box{
+    width: 150px;
+}
+
+.illustration{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.quote{
+    background: #e5e7eb;
+    padding: 80px 0;
+}
+
+.quote-container{
+    width: 60%;
+    margin: auto;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.quote-author{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta{
+    padding: 60px 0;
+}
+
+.cta-box{
+    background: #3882f6;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-outline{
+    border: 2px solid white;
+    background: transparent;
+}
+
+.footer{
+    background: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
